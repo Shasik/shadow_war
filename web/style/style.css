@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    overflow: hidden;
+    font-family: 'Cormorant Unicase', serif;
+    height: 100%;
+}
+
+h1, h2, h3, h4 ,h5, p, table {
+    font-family: 'Cormorant Unicase', serif;
+    color: white;
+}
+
+p {
+    font-size: 4vw;
+}
+
+strong {
+    color: yellow;
+}
+
+table {
+    font-size: 4vmax;
+    border-spacing: 0 10px;
+    margin: 7vh auto;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+a:visited, a {
+    color: grey;
+    text-decoration: none;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: black;
+    color: red;
+    transform: rotate(5deg);
+}
+
+progress {
+    border: 5px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1px;
+}
+
+progress::-webkit-progress-bar {border-radius: 10px;}
+
+progress::-webkit-progress-value {
+    border-radius: 10px;
+    background-color: #e26868;
+}
+
+.header,
+.bottom-box-first,
+.logo,
+.footer {
+    width: 100%;
+}
+
+
+.btn {
+    font-family: 'Cormorant Unicase', serif;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    background: grey;
+    width: 120px;
+    height: 120px;
+    box-shadow: 5px 5px 15px 3px black;
+    border-radius: 50%;
+}
+
+.btn-ok {
+    font-size: 40px;
+}
+
+.bottom-box-first {
+    text-align: center;
+    clear: both;
+    height: 15vh;
+}
+
+.exit {
+    position: absolute;
+    left: 95vw;
+    top: 1vw;
+}
+
+.form-row {
+    text-align: center;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+.form-submit {
+    text-align: center;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.form-row input {
+    width: 15em;
+    height: 2em;
+    line-height: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.form-row input[placeholder] {
+    font-size: 20px;
+    font-family: 'Cormorant Unicase', serif;
+    text-align: center;
+    text-indent: 0px;
+}
+
+.form-submit input[type=submit] {
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 20px;
+    height:45px;
+    width:50%;
+    line-height: 10px;
+    background: #000000;
+    color:white;
+    border-radius: 5px;
+}
+
+.form-submit input[type=submit]:hover {
+    background: grey;
+}
+
+.logo {
+    margin-top: 9vh;
+    height: 25vh;
+    background: url("../images/Shadow.png") no-repeat 50% 50%;
+    background-size: 60%;
+}
+
+.reg-form {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.section {
+    box-sizing: border-box
+}
+
+.left-box{
+    float: left;
+    width: 49%;
+}
+
+.right-box {
+    float: right;
+    width: 49%;
+}
+
+.reverse {
+    transform: scale(-1, 1);
+}
+
+.title {
+    font-size:  3vw;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nickname {
+    font-size:  2vw;
+}
+
+.player {
+    background: url("../images/pers.png") no-repeat 50% 50%;
+    width: 100%;
+    height: 40vh;
+    background-size: 40%;
+    float: left;
+}
+
+.player-error {
+    background: url("../images/pers-error.png") no-repeat 50% 50%;
+    width: 50vw;
+    height: 50vh;
+    background-size: 30vh;
+    margin-top: 12vh;
+}
+
+.error {
+    margin-top: 20vh;
+}
+
+.return {
+    font-size: 5vw;
+    transform: scale(-1);
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 12vh;
+}
